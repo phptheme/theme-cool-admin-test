@@ -1,0 +1,104 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "d6368f1d5fc16358ec30dbb02aebddb6",
+    "packages": [
+        {
+            "name": "phptheme/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/core.git",
+                "reference": "32440aeb3745ff6865b7eb548adb95e85bc0c79f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/32440aeb3745ff6865b7eb548adb95e85bc0c79f",
+                "reference": "32440aeb3745ff6865b7eb548adb95e85bc0c79f",
+                "shasum": ""
+            },
+            "require": {
+                "phptheme/view": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-05T16:00:36+00:00"
+        },
+        {
+            "name": "phptheme/theme-cool-admin",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/theme-cool-admin.git",
+                "reference": "c4fed612c85350502196367b8475b2272f789ca6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/c4fed612c85350502196367b8475b2272f789ca6",
+                "reference": "c4fed612c85350502196367b8475b2272f789ca6",
+                "shasum": ""
+            },
+            "require": {
+                "phptheme/core": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\CoolAdminTheme\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-06T19:04:38+00:00"
+        },
+        {
+            "name": "phptheme/view",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/view.git",
+                "reference": "b213532397a5516510345c88211e82d4750f2c8e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/view/zipball/b213532397a5516510345c88211e82d4750f2c8e",
+                "reference": "b213532397a5516510345c88211e82d4750f2c8e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\View\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-05T15:35:14+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "phptheme/theme-cool-admin": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
