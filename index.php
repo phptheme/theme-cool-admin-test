@@ -6,38 +6,47 @@ require __DIR__ . '/_header.php';
 
 $rows = [
     [
+        'id' => '1',
         'name' => 'User 1',
         'email' => 'email1@example.com'
     ],
     [
+        'id' => '2',
         'name' => 'User 2',
         'email' => 'email2@example.com'
     ]    
 ];
 
-echo $theme->table([
+$table = $theme->createTable([
     'rows' => $rows,
     /*
     'header' => [
         'columns' => [
             ['content' => 'Name 1'],
+            ['content' => 'E-mail 1'],
+            ['content' => 'E-mail 1'],
             ['content' => 'E-mail 1']
         ]
-    ],
-    */
-    'columns' => [
-        [
-            'header' => ['content' => 'Name'],
-            //'footer' => ['content' => 'name footer'],
-            'attribute' => 'name'
-        ],
-        [
-            'header' => ['content' => 'E-mail'],
-            //'footer' => ['content' => 'email footer'],
-            'attribute' => 'email'
-        ]
     ]
+    */
 ]);
+
+$table->columns = [
+    $table->createAttributeColumn([
+        'attribute' => 'id'
+    ]),
+    $table->createAttributeColumn([
+        'header' => 'Name',
+        'attribute' => 'name'
+    ]),
+    $table->createAttributeColumn([
+        'header' => 'E-mail',
+        'attribute' => 'email'
+    ]),
+    'Just Text Column'
+];
+
+echo $table->run();
 
 ?>
 
