@@ -17,19 +17,7 @@ $rows = [
     ]    
 ];
 
-$table = $theme->createTable([
-    'rows' => $rows,
-    /*
-    'header' => [
-        'columns' => [
-            ['content' => 'Name 1'],
-            ['content' => 'E-mail 1'],
-            ['content' => 'E-mail 1'],
-            ['content' => 'E-mail 1']
-        ]
-    ]
-    */
-]);
+$table = $theme->createTable(['rows' => $rows]);
 
 $table->columns = [
     $table->createAttributeColumn([
