@@ -82,10 +82,9 @@ $theme->beginLayout([
         ]
     ],
     'account' => [
-        'userName' => 'Denzel Po',
-        'userEmail' => 'denzel.po@example.com',
+        'name' => 'Denzel Po',
+        'description' => 'denzel.po@example.com',
         'logoutUrl' => '#logout',
-        'userUrl' => '#account',
         'menu' => [
             'items' => [
                 [
