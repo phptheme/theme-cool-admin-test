@@ -7,33 +7,64 @@
     "content-hash": "d6368f1d5fc16358ec30dbb02aebddb6",
     "packages": [
         {
-            "name": "phptheme/core",
+            "name": "phptheme/bootstrap4",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/phptheme/core.git",
-                "reference": "32440aeb3745ff6865b7eb548adb95e85bc0c79f"
+                "url": "https://github.com/phptheme/bootstrap4.git",
+                "reference": "18900f1f14f129e07f19e96e4e68906af04da665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/core/zipball/32440aeb3745ff6865b7eb548adb95e85bc0c79f",
-                "reference": "32440aeb3745ff6865b7eb548adb95e85bc0c79f",
+                "url": "https://api.github.com/repos/phptheme/bootstrap4/zipball/18900f1f14f129e07f19e96e4e68906af04da665",
+                "reference": "18900f1f14f129e07f19e96e4e68906af04da665",
                 "shasum": ""
             },
             "require": {
-                "phptheme/view": "dev-master"
+                "phptheme/core": "dev-master"
             },
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "PhpTheme\\Core\\": ""
+                    "PhpTheme\\Bootstrap4\\": ""
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-05T16:00:36+00:00"
+            "time": "2019-07-14T05:36:32+00:00"
+        },
+        {
+            "name": "phptheme/core",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/phptheme/core.git",
+                "reference": "fe14e3ccf12117cad7191c48cd3660640169e6f4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/fe14e3ccf12117cad7191c48cd3660640169e6f4",
+                "reference": "fe14e3ccf12117cad7191c48cd3660640169e6f4",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "PhpTheme\\Core\\": "",
+                    "PhpTheme\\Helpers\\": "Helpers/",
+                    "PhpTheme\\Html\\": "Html/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "time": "2019-07-14T05:40:46+00:00"
         },
         {
             "name": "phptheme/theme-cool-admin",
@@ -41,16 +72,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-cool-admin.git",
-                "reference": "c4fed612c85350502196367b8475b2272f789ca6"
+                "reference": "7812fdaabb4e78592e362e91369cacea39e7b6ac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/c4fed612c85350502196367b8475b2272f789ca6",
-                "reference": "c4fed612c85350502196367b8475b2272f789ca6",
+                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/7812fdaabb4e78592e362e91369cacea39e7b6ac",
+                "reference": "7812fdaabb4e78592e362e91369cacea39e7b6ac",
                 "shasum": ""
             },
             "require": {
-                "phptheme/core": "dev-master"
+                "phptheme/bootstrap4": "dev-master"
             },
             "type": "library",
             "autoload": {
@@ -62,33 +93,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-06T19:04:38+00:00"
-        },
-        {
-            "name": "phptheme/view",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/phptheme/view.git",
-                "reference": "b213532397a5516510345c88211e82d4750f2c8e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/view/zipball/b213532397a5516510345c88211e82d4750f2c8e",
-                "reference": "b213532397a5516510345c88211e82d4750f2c8e",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "PhpTheme\\View\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "time": "2019-07-05T15:35:14+00:00"
+            "time": "2019-07-14T05:49:43+00:00"
         }
     ],
     "packages-dev": [],
