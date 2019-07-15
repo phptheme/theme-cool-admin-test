@@ -20,42 +20,20 @@ $rows = [
 $table = $theme->createTable(['rows' => $rows]);
 
 $table->columns = [
-    $table->createAttributeColumn([
+    $table->createColumn([
         'attribute' => 'id'
     ]),
-    $table->createAttributeColumn([
+    $table->createColumn([
         'header' => 'Name',
         'attribute' => 'name'
     ]),
-    $table->createAttributeColumn([
+    $table->createColumn([
         'header' => 'E-mail',
         'attribute' => 'email'
-    ]),
+    ])->displayLarge(),
     'Just Text Column'
 ];
 
 echo $table->run();
-
-?>
-
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-<br>
-Hello 123 1 231 3123123
-
-<?php
 
 require __DIR__ . '/_footer.php';
