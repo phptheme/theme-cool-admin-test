@@ -41,12 +41,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/core.git",
-                "reference": "fe14e3ccf12117cad7191c48cd3660640169e6f4"
+                "reference": "f88d961903a35253107de55cbb099feb107a2521"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/core/zipball/fe14e3ccf12117cad7191c48cd3660640169e6f4",
-                "reference": "fe14e3ccf12117cad7191c48cd3660640169e6f4",
+                "url": "https://api.github.com/repos/phptheme/core/zipball/f88d961903a35253107de55cbb099feb107a2521",
+                "reference": "f88d961903a35253107de55cbb099feb107a2521",
                 "shasum": ""
             },
             "require": {
@@ -64,7 +64,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-14T05:40:46+00:00"
+            "time": "2019-07-19T19:32:59+00:00"
         },
         {
             "name": "phptheme/theme-cool-admin",
@@ -72,12 +72,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phptheme/theme-cool-admin.git",
-                "reference": "7812fdaabb4e78592e362e91369cacea39e7b6ac"
+                "reference": "b3fa1dbc09c34e9983417689d136be1ee494def4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/7812fdaabb4e78592e362e91369cacea39e7b6ac",
-                "reference": "7812fdaabb4e78592e362e91369cacea39e7b6ac",
+                "url": "https://api.github.com/repos/phptheme/theme-cool-admin/zipball/b3fa1dbc09c34e9983417689d136be1ee494def4",
+                "reference": "b3fa1dbc09c34e9983417689d136be1ee494def4",
                 "shasum": ""
             },
             "require": {
@@ -93,7 +93,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2019-07-14T05:49:43+00:00"
+            "time": "2019-07-19T19:48:50+00:00"
         }
     ],
     "packages-dev": [],
